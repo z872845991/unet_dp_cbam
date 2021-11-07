@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from model.CBAM.cbam import CBAM
+from CBAM.cbam import CBAM
 
 class DoubleConv(nn.Module):
     def __init__(self, in_ch, out_ch):
